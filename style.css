@@ -1,0 +1,275 @@
+:root {
+    --collor_header_footer_btn: rgb(63,49,63);
+    --collor_main: white;
+    --color_form: rgb(229,214,210); 
+    --collor_form_2: rgb(161, 159, 159);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =====header===== */
+header {
+    background-color: var(--collor_header_footer_btn);
+}
+
+.header_wrap {
+    display: flex;
+}
+
+.header_img {
+    width: 150px;
+    height: 150px;   
+    border-radius: 50%;  
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.heading_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    color: var(--collor_main);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header___text {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* =====header end===== */
+
+
+/* =====MAIN===== */
+
+main {
+    background-color: var(--collor_main);
+}
+
+/* ===objective=== */
+
+.objective_wrap {
+    display: flex;
+    padding-left: 40px;
+}
+
+.heading_objective {
+    padding-bottom: 15px;
+    padding-top: 65px;
+}
+
+.text__objective {
+     padding-top: 15px;
+     text-align: justify;
+}
+
+/* ===objective end=== */
+
+/* ===experience=== */
+
+.experience_wrap {
+    padding-left: 40px;
+    padding-bottom: 25px;
+    padding-top: 40px;  
+}
+
+.heading_experience {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.experience_contain {
+    display: flex;
+}
+
+.text_exp {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.header__experience {
+    padding-left: 110px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.header__experience_web {
+    padding-left: 92px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.text_expierence {
+    padding-left: 180px;
+    text-align: justify;
+}
+
+/* ===experience end=== */
+
+/* ===skills=== */
+
+.skills {
+    padding-left: 40px;
+    padding-bottom: 25px;
+    padding-top: 35px;  
+}
+
+.heading_skills {
+    padding-bottom: 15px;
+}
+
+.text_skills {
+    text-align: justify;
+}
+
+/* ===skills end=== */
+
+/* ===language=== */
+
+.language {
+    padding-left: 40px;
+    padding-bottom: 45px;
+    padding-top: 15px;
+}
+
+.language__list {
+    padding-left: 20px;
+    padding-top: 15px;
+    list-style-type: square;
+    list-style-image: url(img/marker_lang.png);
+}
+
+/* .language-list-item::before {
+    content: '\25A0';
+    color: var(--color_form);
+    display: inline-block;
+    width: 1em;
+} */
+
+.language-list-item {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+/* ===language end=== */
+
+/* ===== main end===== */
+
+
+/* =====form====== */
+.form {
+    background-color: var(--color_form);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.header_form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.form-input {
+    width: 300px;
+}
+
+.form-item {
+    display: inline-block; 
+}
+
+.button_form {
+    background-color: var(--collor_header_footer_btn);
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: var(--collor_main);
+    font-size: 18px;   
+}
+
+.btn-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.button_form:hover {
+    transform: skew(-10deg);
+}
+
+.form-input,
+.form-textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: var(--color_form);
+    border-bottom: solid 2px var(--collor_form_2);
+    font-size: 16px;
+}
+
+.form_input,
+.form_textarea:active, :focus {
+    outline: 0; 
+    outline-offset: 0;
+}
+
+.form-textarea {
+    resize: none;
+    width: 600px;
+    height: 20px;
+}
+/* =====form end===== */
+
+/* =====footer===== */
+footer {
+    background-color: var(--collor_header_footer_btn);
+    color: var(--collor_main);
+}
+
+.contact__header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact___list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_link {
+    color: var(--collor_main);
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer_copy {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    color: var(--collor_main);
+    font-size: 12px;
+    opacity: 0.5;
+}
+/* =====footer end===== */
