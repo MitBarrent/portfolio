@@ -179,17 +179,17 @@ main {
 }
 
 .header_form {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-bottom: 25px;
 }
 
 .form-input {
-    width: 300px;
+    width: 240px;
 }
 
-.form-item {
-    display: inline-block; 
+.input_box {
+    display: flex;
+    padding-bottom: 15px;
 }
 
 .button_form {
@@ -219,6 +219,7 @@ main {
     border-right: none;
     background-color: var(--color_form);
     border-bottom: solid 2px var(--collor_form_2);
+    left: 20px;
     font-size: 16px;
 }
 
